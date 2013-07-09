@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5330675E1771875400B990CE /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5330675F1771875400B990CE /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				53306764177187C400B990CE /* Build Framework */,
+			);
+			dependencies = (
+				533067631771875900B990CE /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5315432517717A9E008985C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5315432417717A9E008985C8 /* Foundation.framework */; };
+		5330673A1771851000B990CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533067391771851000B990CE /* UIKit.framework */; };
+		5330674D1771864000B990CE /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330673D1771864000B990CE /* DownloadManager.m */; };
+		5330674E1771864000B990CE /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330673F1771864000B990CE /* DownloadOperation.m */; };
+		5330674F1771864000B990CE /* NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067421771864000B990CE /* NotificationHelper.m */; };
+		533067501771864000B990CE /* OfflineStorageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067441771864000B990CE /* OfflineStorageModel.m */; };
+		533067511771864000B990CE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067461771864000B990CE /* Reachability.m */; };
+		533067521771864000B990CE /* Resource.m in Sources */ = {isa = PBXBuildFile; fileRef = 533067481771864000B990CE /* Resource.m */; };
+		533067531771864000B990CE /* ResourceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330674A1771864000B990CE /* ResourceRequest.m */; };
+		533067541771864000B990CE /* UpdatingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330674C1771864000B990CE /* UpdatingImageView.m */; };
+		5330676617718B7100B990CE /* Resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067471771864000B990CE /* Resource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676717718B7100B990CE /* ResourceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067491771864000B990CE /* ResourceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676817718B7100B990CE /* DownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5330673C1771864000B990CE /* DownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676917718B7100B990CE /* DownloadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5330673E1771864000B990CE /* DownloadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676A17718B7100B990CE /* DownloadOperationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067401771864000B990CE /* DownloadOperationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676B17718B7100B990CE /* OfflineStorageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067431771864000B990CE /* OfflineStorageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676D17718B7100B990CE /* UpdatingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5330674B1771864000B990CE /* UpdatingImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676E17718B7100B990CE /* NotificationHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067411771864000B990CE /* NotificationHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330676F17718B7100B990CE /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5315434A17717C20008985C8 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5330677017718B7100B990CE /* Globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 5330673B1771859700B990CE /* Globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533067CB1771CCE700B990CE /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067CA1771CCE600B990CE /* Reachability.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		533067CD1771CD2A00B990CE /* HttpDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 533067CC1771CD2900B990CE /* HttpDownload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		533067D01771CF2C00B990CE /* HttpDownload-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 5315432817717A9E008985C8 /* HttpDownload-Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
+		533067D11771CF4700B990CE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533067C81771CC5C00B990CE /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533067621771875900B990CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5315431817717A9E008985C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5315432017717A9E008985C8;
+			remoteInfo = HttpDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5315432117717A9E008985C8 /* libHttpDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHttpDownload.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5315432417717A9E008985C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5315432817717A9E008985C8 /* HttpDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpDownload-Prefix.pch"; sourceTree = "<group>"; };
+		5315434A17717C20008985C8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		533067391771851000B990CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5330673B1771859700B990CE /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		5330673C1771864000B990CE /* DownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadManager.h; path = HttpDownload/DownloadManager.h; sourceTree = SOURCE_ROOT; };
+		5330673D1771864000B990CE /* DownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadManager.m; path = HttpDownload/DownloadManager.m; sourceTree = SOURCE_ROOT; };
+		5330673E1771864000B990CE /* DownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadOperation.h; path = HttpDownload/DownloadOperation.h; sourceTree = SOURCE_ROOT; };
+		5330673F1771864000B990CE /* DownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownloadOperation.m; path = HttpDownload/DownloadOperation.m; sourceTree = SOURCE_ROOT; };
+		533067401771864000B990CE /* DownloadOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownloadOperationDelegate.h; path = HttpDownload/DownloadOperationDelegate.h; sourceTree = SOURCE_ROOT; };
+		533067411771864000B990CE /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationHelper.h; path = HttpDownload/NotificationHelper.h; sourceTree = SOURCE_ROOT; };
+		533067421771864000B990CE /* NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationHelper.m; path = HttpDownload/NotificationHelper.m; sourceTree = SOURCE_ROOT; };
+		533067431771864000B990CE /* OfflineStorageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OfflineStorageModel.h; path = HttpDownload/OfflineStorageModel.h; sourceTree = SOURCE_ROOT; };
+		533067441771864000B990CE /* OfflineStorageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OfflineStorageModel.m; path = HttpDownload/OfflineStorageModel.m; sourceTree = SOURCE_ROOT; };
+		533067461771864000B990CE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = HttpDownload/Reachability.m; sourceTree = SOURCE_ROOT; };
+		533067471771864000B990CE /* Resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resource.h; path = HttpDownload/Resource.h; sourceTree = SOURCE_ROOT; };
+		533067481771864000B990CE /* Resource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resource.m; path = HttpDownload/Resource.m; sourceTree = SOURCE_ROOT; };
+		533067491771864000B990CE /* ResourceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceRequest.h; path = HttpDownload/ResourceRequest.h; sourceTree = SOURCE_ROOT; };
+		5330674A1771864000B990CE /* ResourceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceRequest.m; path = HttpDownload/ResourceRequest.m; sourceTree = SOURCE_ROOT; };
+		5330674B1771864000B990CE /* UpdatingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdatingImageView.h; path = HttpDownload/UpdatingImageView.h; sourceTree = SOURCE_ROOT; };
+		5330674C1771864000B990CE /* UpdatingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdatingImageView.m; path = HttpDownload/UpdatingImageView.m; sourceTree = SOURCE_ROOT; };
+		533067C81771CC5C00B990CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		533067CA1771CCE600B990CE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = HttpDownload/Reachability.h; sourceTree = SOURCE_ROOT; };
+		533067CC1771CD2900B990CE /* HttpDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpDownload.h; path = HttpDownload/HttpDownload.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5315431E17717A9E008985C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533067D11771CF4700B990CE /* SystemConfiguration.framework in Frameworks */,
+				5315432517717A9E008985C8 /* Foundation.framework in Frameworks */,
+				5330673A1771851000B990CE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5315431617717A9E008985C8 = {
+			isa = PBXGroup;
+			children = (
+				5315432617717A9E008985C8 /* HttpDownload */,
+				5315432317717A9E008985C8 /* Frameworks */,
+				5315432217717A9E008985C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5315432217717A9E008985C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5315432117717A9E008985C8 /* libHttpDownload.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5315432317717A9E008985C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533067C81771CC5C00B990CE /* SystemConfiguration.framework */,
+				533067391771851000B990CE /* UIKit.framework */,
+				5315432417717A9E008985C8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5315432617717A9E008985C8 /* HttpDownload */ = {
+			isa = PBXGroup;
+			children = (
+				5315433217717BBB008985C8 /* Utilities */,
+				5315434A17717C20008985C8 /* Constants.h */,
+				5330673B1771859700B990CE /* Globals.h */,
+				5315432717717A9E008985C8 /* Supporting Files */,
+			);
+			path = HttpDownload;
+			sourceTree = "<group>";
+		};
+		5315432717717A9E008985C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5315432817717A9E008985C8 /* HttpDownload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5315433217717BBB008985C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				533067CC1771CD2900B990CE /* HttpDownload.h */,
+				533067471771864000B990CE /* Resource.h */,
+				533067491771864000B990CE /* ResourceRequest.h */,
+				5330673C1771864000B990CE /* DownloadManager.h */,
+				5330673E1771864000B990CE /* DownloadOperation.h */,
+				533067401771864000B990CE /* DownloadOperationDelegate.h */,
+				533067431771864000B990CE /* OfflineStorageModel.h */,
+				5330674B1771864000B990CE /* UpdatingImageView.h */,
+				533067CA1771CCE600B990CE /* Reachability.h */,
+				533067411771864000B990CE /* NotificationHelper.h */,
+				5330673D1771864000B990CE /* DownloadManager.m */,
+				5330673F1771864000B990CE /* DownloadOperation.m */,
+				533067421771864000B990CE /* NotificationHelper.m */,
+				533067441771864000B990CE /* OfflineStorageModel.m */,
+				533067461771864000B990CE /* Reachability.m */,
+				533067481771864000B990CE /* Resource.m */,
+				5330674A1771864000B990CE /* ResourceRequest.m */,
+				5330674C1771864000B990CE /* UpdatingImageView.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5330676517718B4800B990CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533067CD1771CD2A00B990CE /* HttpDownload.h in Headers */,
+				5330676617718B7100B990CE /* Resource.h in Headers */,
+				5330676717718B7100B990CE /* ResourceRequest.h in Headers */,
+				5330676817718B7100B990CE /* DownloadManager.h in Headers */,
+				5330676917718B7100B990CE /* DownloadOperation.h in Headers */,
+				5330676A17718B7100B990CE /* DownloadOperationDelegate.h in Headers */,
+				5330676B17718B7100B990CE /* OfflineStorageModel.h in Headers */,
+				5330676D17718B7100B990CE /* UpdatingImageView.h in Headers */,
+				5330676E17718B7100B990CE /* NotificationHelper.h in Headers */,
+				5330676F17718B7100B990CE /* Constants.h in Headers */,
+				5330677017718B7100B990CE /* Globals.h in Headers */,
+				533067CB1771CCE700B990CE /* Reachability.h in Headers */,
+				533067D01771CF2C00B990CE /* HttpDownload-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5315432017717A9E008985C8 /* HttpDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5315432F17717A9E008985C8 /* Build configuration list for PBXNativeTarget "HttpDownload" */;
+			buildPhases = (
+				5315431D17717A9E008985C8 /* Sources */,
+				5315431E17717A9E008985C8 /* Frameworks */,
+				5330676517718B4800B990CE /* Headers */,
+				533067711771A52C00B990CE /* Preapre Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HttpDownload;
+			productName = HttpDownload;
+			productReference = 5315432117717A9E008985C8 /* libHttpDownload.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5315431817717A9E008985C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = omkar_ramtekkar;
+			};
+			buildConfigurationList = 5315431B17717A9E008985C8 /* Build configuration list for PBXProject "HttpDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5315431617717A9E008985C8;
+			productRefGroup = 5315432217717A9E008985C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5315432017717A9E008985C8 /* HttpDownload */,
+				5330675E1771875400B990CE /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53306764177187C400B990CE /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n";
+		};
+		533067711771A52C00B990CE /* Preapre Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Preapre Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${BUILT_PRODUCTS_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5315431D17717A9E008985C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5330674D1771864000B990CE /* DownloadManager.m in Sources */,
+				5330674E1771864000B990CE /* DownloadOperation.m in Sources */,
+				5330674F1771864000B990CE /* NotificationHelper.m in Sources */,
+				533067501771864000B990CE /* OfflineStorageModel.m in Sources */,
+				533067511771864000B990CE /* Reachability.m in Sources */,
+				533067521771864000B990CE /* Resource.m in Sources */,
+				533067531771864000B990CE /* ResourceRequest.m in Sources */,
+				533067541771864000B990CE /* UpdatingImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533067631771875900B990CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5315432017717A9E008985C8 /* HttpDownload */;
+			targetProxy = 533067621771875900B990CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5315432D17717A9E008985C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos6.0;
+			};
+			name = Debug;
+		};
+		5315432E17717A9E008985C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5315433017717A9E008985C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/HttpDownload.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpDownload/HttpDownload-Prefix.pch";
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = HttpDownload/Headers;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		5315433117717A9E008985C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DSTROOT = /tmp/HttpDownload.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpDownload/HttpDownload-Prefix.pch";
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = HttpDownload/Headers;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		533067601771875400B990CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		533067611771875400B990CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5315431B17717A9E008985C8 /* Build configuration list for PBXProject "HttpDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315432D17717A9E008985C8 /* Debug */,
+				5315432E17717A9E008985C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5315432F17717A9E008985C8 /* Build configuration list for PBXNativeTarget "HttpDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5315433017717A9E008985C8 /* Debug */,
+				5315433117717A9E008985C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5330675F1771875400B990CE /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533067601771875400B990CE /* Debug */,
+				533067611771875400B990CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5315431817717A9E008985C8 /* Project object */;
+}

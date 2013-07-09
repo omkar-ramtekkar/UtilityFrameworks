@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		53F1F5771774433E00D003DA /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 53F1F5781774433E00D003DA /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				53F1F57D1774434A00D003DA /* Build Framework */,
+			);
+			dependencies = (
+				53F1F57C1774434800D003DA /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		53F1F5241774267700D003DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F1F5231774267700D003DA /* Foundation.framework */; };
+		53F1F536177426FC00D003DA /* WebServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F5281774267700D003DA /* WebServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F1F5371774270B00D003DA /* WebServices-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F5271774267700D003DA /* WebServices-Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
+		53F1F53D1774276800D003DA /* RestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F5381774276800D003DA /* RestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F1F53F1774276800D003DA /* RestRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F53A1774276800D003DA /* RestRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F1F5411774276800D003DA /* RestRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F53C1774276800D003DA /* RestRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F1F54317742A3300D003DA /* Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F1F54217742A3300D003DA /* Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53F1F5E11774570600D003DA /* RestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1F5DF1774570600D003DA /* RestMessage.m */; };
+		53F1F5E21774570600D003DA /* RestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1F5E01774570600D003DA /* RestRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F1F57B1774434800D003DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F1F5171774267700D003DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F1F51F1774267700D003DA;
+			remoteInfo = WebServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F1F5201774267700D003DA /* libWebServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWebServices.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F1F5231774267700D003DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53F1F5271774267700D003DA /* WebServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebServices-Prefix.pch"; sourceTree = "<group>"; };
+		53F1F5281774267700D003DA /* WebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		53F1F5381774276800D003DA /* RestMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestMessage.h; sourceTree = "<group>"; };
+		53F1F53A1774276800D003DA /* RestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestRequest.h; sourceTree = "<group>"; };
+		53F1F53C1774276800D003DA /* RestRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestRequestDelegate.h; sourceTree = "<group>"; };
+		53F1F54217742A3300D003DA /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		53F1F5DF1774570600D003DA /* RestMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestMessage.m; sourceTree = "<group>"; };
+		53F1F5E01774570600D003DA /* RestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F1F51D1774267700D003DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1F5241774267700D003DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F1F5151774267700D003DA = {
+			isa = PBXGroup;
+			children = (
+				53F1F5251774267700D003DA /* WebServices */,
+				53F1F5221774267700D003DA /* Frameworks */,
+				53F1F5211774267700D003DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F1F5211774267700D003DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5201774267700D003DA /* libWebServices.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F1F5221774267700D003DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5231774267700D003DA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53F1F5251774267700D003DA /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5381774276800D003DA /* RestMessage.h */,
+				53F1F53A1774276800D003DA /* RestRequest.h */,
+				53F1F53C1774276800D003DA /* RestRequestDelegate.h */,
+				53F1F54217742A3300D003DA /* Parser.h */,
+				53F1F5281774267700D003DA /* WebServices.h */,
+				53F1F5DF1774570600D003DA /* RestMessage.m */,
+				53F1F5E01774570600D003DA /* RestRequest.m */,
+				53F1F5261774267700D003DA /* Supporting Files */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		53F1F5261774267700D003DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5271774267700D003DA /* WebServices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53F1F535177426F100D003DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1F536177426FC00D003DA /* WebServices.h in Headers */,
+				53F1F53D1774276800D003DA /* RestMessage.h in Headers */,
+				53F1F53F1774276800D003DA /* RestRequest.h in Headers */,
+				53F1F5411774276800D003DA /* RestRequestDelegate.h in Headers */,
+				53F1F54317742A3300D003DA /* Parser.h in Headers */,
+				53F1F5371774270B00D003DA /* WebServices-Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53F1F51F1774267700D003DA /* WebServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F1F52E1774267700D003DA /* Build configuration list for PBXNativeTarget "WebServices" */;
+			buildPhases = (
+				53F1F51C1774267700D003DA /* Sources */,
+				53F1F51D1774267700D003DA /* Frameworks */,
+				53F1F535177426F100D003DA /* Headers */,
+				53F1F576177442F600D003DA /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebServices;
+			productName = WebServices;
+			productReference = 53F1F5201774267700D003DA /* libWebServices.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F1F5171774267700D003DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = omkar_ramtekkar;
+			};
+			buildConfigurationList = 53F1F51A1774267700D003DA /* Build configuration list for PBXProject "WebServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53F1F5151774267700D003DA;
+			productRefGroup = 53F1F5211774267700D003DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F1F51F1774267700D003DA /* WebServices */,
+				53F1F5771774433E00D003DA /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53F1F576177442F600D003DA /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n\n# Link the \"Current\" version to \"${FRAMEWORK_VERSION}\"\nln -sfh ${FRAMEWORK_VERSION} \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\nln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\nln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\ncp -a \"${BUILT_PRODUCTS_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/${FRAMEWORK_VERSION}/Headers\"\n";
+		};
+		53F1F57D1774434A00D003DA /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/${FRAMEWORK_VERSION}/${SF_TARGET_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F1F51C1774267700D003DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1F5E11774570600D003DA /* RestMessage.m in Sources */,
+				53F1F5E21774570600D003DA /* RestRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F1F57C1774434800D003DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F1F51F1774267700D003DA /* WebServices */;
+			targetProxy = 53F1F57B1774434800D003DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		53F1F52C1774267700D003DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos6.0;
+			};
+			name = Debug;
+		};
+		53F1F52D1774267700D003DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F1F52F1774267700D003DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WebServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServices/WebServices-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = WebServices/Headers;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		53F1F5301774267700D003DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WebServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServices/WebServices-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = WebServices/Headers;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		53F1F5791774433E00D003DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53F1F57A1774433E00D003DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F1F51A1774267700D003DA /* Build configuration list for PBXProject "WebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1F52C1774267700D003DA /* Debug */,
+				53F1F52D1774267700D003DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F1F52E1774267700D003DA /* Build configuration list for PBXNativeTarget "WebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1F52F1774267700D003DA /* Debug */,
+				53F1F5301774267700D003DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F1F5781774433E00D003DA /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1F5791774433E00D003DA /* Debug */,
+				53F1F57A1774433E00D003DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F1F5171774267700D003DA /* Project object */;
+}

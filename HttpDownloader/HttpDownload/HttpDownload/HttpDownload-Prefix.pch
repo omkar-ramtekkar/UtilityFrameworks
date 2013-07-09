@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'HttpDownload' target in the 'HttpDownload' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <CFNetwork/CFNetwork.h>
+    #import <Security/Security.h>
+#endif
