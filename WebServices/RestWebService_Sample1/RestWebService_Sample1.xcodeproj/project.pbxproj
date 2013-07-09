@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F1F5541774425900D003DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F1F5531774425900D003DA /* UIKit.framework */; };
+		53F1F5561774425900D003DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F1F5551774425900D003DA /* Foundation.framework */; };
+		53F1F5581774425900D003DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F1F5571774425900D003DA /* CoreGraphics.framework */; };
+		53F1F55E1774425900D003DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53F1F55C1774425900D003DA /* InfoPlist.strings */; };
+		53F1F5601774425900D003DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1F55F1774425900D003DA /* main.m */; };
+		53F1F5641774425900D003DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1F5631774425900D003DA /* AppDelegate.m */; };
+		53F1F5661774425900D003DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F1F5651774425900D003DA /* Default.png */; };
+		53F1F5681774425900D003DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F1F5671774425900D003DA /* Default@2x.png */; };
+		53F1F56A1774425900D003DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F1F5691774425900D003DA /* Default-568h@2x.png */; };
+		53F1F5E51774576500D003DA /* libWebServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F1F5DC177456C400D003DA /* libWebServices.a */; };
+		53F1F5ED1774587C00D003DA /* ProgramParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F1F5EC1774587C00D003DA /* ProgramParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F1F5DB177456C400D003DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F1F5D6177456C400D003DA /* WebServices.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53F1F5201774267700D003DA;
+			remoteInfo = WebServices;
+		};
+		53F1F5E31774575A00D003DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F1F5D6177456C400D003DA /* WebServices.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F1F51F1774267700D003DA;
+			remoteInfo = WebServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F1F54F1774425900D003DA /* RestWebService_Sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestWebService_Sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F1F5531774425900D003DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53F1F5551774425900D003DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53F1F5571774425900D003DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53F1F55B1774425900D003DA /* RestWebService_Sample1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestWebService_Sample1-Info.plist"; sourceTree = "<group>"; };
+		53F1F55D1774425900D003DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53F1F55F1774425900D003DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F1F5611774425900D003DA /* RestWebService_Sample1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestWebService_Sample1-Prefix.pch"; sourceTree = "<group>"; };
+		53F1F5621774425900D003DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53F1F5631774425900D003DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53F1F5651774425900D003DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		53F1F5671774425900D003DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		53F1F5691774425900D003DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		53F1F5D6177456C400D003DA /* WebServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WebServices.xcodeproj; path = ../WebServices/WebServices.xcodeproj; sourceTree = "<group>"; };
+		53F1F5EA1774581600D003DA /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		53F1F5EC1774587C00D003DA /* ProgramParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramParser.m; sourceTree = "<group>"; };
+		53F1F5EE17745CED00D003DA /* ProgramParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramParser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F1F54C1774425900D003DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1F5E51774576500D003DA /* libWebServices.a in Frameworks */,
+				53F1F5541774425900D003DA /* UIKit.framework in Frameworks */,
+				53F1F5561774425900D003DA /* Foundation.framework in Frameworks */,
+				53F1F5581774425900D003DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F1F5441774425900D003DA = {
+			isa = PBXGroup;
+			children = (
+				53F1F5591774425900D003DA /* RestWebService_Sample1 */,
+				53F1F5521774425900D003DA /* Frameworks */,
+				53F1F5501774425900D003DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F1F5501774425900D003DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F54F1774425900D003DA /* RestWebService_Sample1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F1F5521774425900D003DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5D6177456C400D003DA /* WebServices.xcodeproj */,
+				53F1F5531774425900D003DA /* UIKit.framework */,
+				53F1F5551774425900D003DA /* Foundation.framework */,
+				53F1F5571774425900D003DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53F1F5591774425900D003DA /* RestWebService_Sample1 */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5621774425900D003DA /* AppDelegate.h */,
+				53F1F5631774425900D003DA /* AppDelegate.m */,
+				53F1F5EE17745CED00D003DA /* ProgramParser.h */,
+				53F1F5EC1774587C00D003DA /* ProgramParser.m */,
+				53F1F55A1774425900D003DA /* Supporting Files */,
+			);
+			path = RestWebService_Sample1;
+			sourceTree = "<group>";
+		};
+		53F1F55A1774425900D003DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F55B1774425900D003DA /* RestWebService_Sample1-Info.plist */,
+				53F1F55C1774425900D003DA /* InfoPlist.strings */,
+				53F1F55F1774425900D003DA /* main.m */,
+				53F1F5EA1774581600D003DA /* Constants.h */,
+				53F1F5611774425900D003DA /* RestWebService_Sample1-Prefix.pch */,
+				53F1F5651774425900D003DA /* Default.png */,
+				53F1F5671774425900D003DA /* Default@2x.png */,
+				53F1F5691774425900D003DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53F1F5D7177456C400D003DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F1F5DC177456C400D003DA /* libWebServices.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F1F54E1774425900D003DA /* RestWebService_Sample1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F1F56D1774425900D003DA /* Build configuration list for PBXNativeTarget "RestWebService_Sample1" */;
+			buildPhases = (
+				53F1F54B1774425900D003DA /* Sources */,
+				53F1F54C1774425900D003DA /* Frameworks */,
+				53F1F54D1774425900D003DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F1F5E41774575A00D003DA /* PBXTargetDependency */,
+			);
+			name = RestWebService_Sample1;
+			productName = RestWebService_Sample1;
+			productReference = 53F1F54F1774425900D003DA /* RestWebService_Sample1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F1F5461774425900D003DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = omkar_ramtekkar;
+			};
+			buildConfigurationList = 53F1F5491774425900D003DA /* Build configuration list for PBXProject "RestWebService_Sample1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53F1F5441774425900D003DA;
+			productRefGroup = 53F1F5501774425900D003DA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 53F1F5D7177456C400D003DA /* Products */;
+					ProjectRef = 53F1F5D6177456C400D003DA /* WebServices.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				53F1F54E1774425900D003DA /* RestWebService_Sample1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		53F1F5DC177456C400D003DA /* libWebServices.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libWebServices.a;
+			remoteRef = 53F1F5DB177456C400D003DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F1F54D1774425900D003DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1F55E1774425900D003DA /* InfoPlist.strings in Resources */,
+				53F1F5661774425900D003DA /* Default.png in Resources */,
+				53F1F5681774425900D003DA /* Default@2x.png in Resources */,
+				53F1F56A1774425900D003DA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F1F54B1774425900D003DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1F5601774425900D003DA /* main.m in Sources */,
+				53F1F5641774425900D003DA /* AppDelegate.m in Sources */,
+				53F1F5ED1774587C00D003DA /* ProgramParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F1F5E41774575A00D003DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WebServices;
+			targetProxy = 53F1F5E31774575A00D003DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F1F55C1774425900D003DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F1F55D1774425900D003DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F1F56B1774425900D003DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53F1F56C1774425900D003DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F1F56E1774425900D003DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestWebService_Sample1/RestWebService_Sample1-Prefix.pch";
+				INFOPLIST_FILE = "RestWebService_Sample1/RestWebService_Sample1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53F1F56F1774425900D003DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RestWebService_Sample1/RestWebService_Sample1-Prefix.pch";
+				INFOPLIST_FILE = "RestWebService_Sample1/RestWebService_Sample1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F1F5491774425900D003DA /* Build configuration list for PBXProject "RestWebService_Sample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1F56B1774425900D003DA /* Debug */,
+				53F1F56C1774425900D003DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F1F56D1774425900D003DA /* Build configuration list for PBXNativeTarget "RestWebService_Sample1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1F56E1774425900D003DA /* Debug */,
+				53F1F56F1774425900D003DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F1F5461774425900D003DA /* Project object */;
+}
